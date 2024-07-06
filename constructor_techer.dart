@@ -4,7 +4,8 @@ class Teacher{
   String? subject;
   double? salary;
   
-  Teacher ({required name, required int age, required String subject, required double salary}){ //constructor with required properties/named perameter.
+  Teacher ({required name, required int age, required String subject, required double salary}){ 
+    //constructor with required properties/named perameter.
     this.name=name;
     this.age=age;
     this.subject=subject;
